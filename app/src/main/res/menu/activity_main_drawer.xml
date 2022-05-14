@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="List" />
+        <item
+            android:id="@+id/nav_slideshow1"
+            android:icon="@drawable/ic_baseline_place_24"
+            android:title="Ma Position" />
+        <item
+            android:id="@+id/nav_slideshow2"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Parametres" />
+        <item
+            android:id="@+id/nav_slideshow3"
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:title="Se Deconnecter " />
+    </group>
+</menu>
